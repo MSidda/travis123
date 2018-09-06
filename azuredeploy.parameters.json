@@ -2,23 +2,17 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "vnetName": {
-      "value": "GEN-UNQIUE-12"
+    "storageAccountName": {
+      "value": "GEN-UNIQUE"
     },
-    "vnetAddressPrefix": {
-      "value": "10.0.0.0/16"
+    "adminUsername": {
+      "value": "admin123"
     },
-    "subnet1Name": {
-      "value": "Subnet1"
+    "adminPassword": {
+      "value": "Admin123_!"
     },
-    "subnet1Prefix": {
-      "value": "GEN-UNQIUE"
-    },
-    "subnet2Name": {
-      "value": "Subnet2"
-    },
-    "subnet2Prefix": {
-      "value": "10.0.1.0/24"
+    "dnsNameforLBIP": {
+      "value": "GEN-UNIQUE"
     }
   }
 }
