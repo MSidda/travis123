@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vnetName": {
-      "value": "VNet1"
+      "value": "GEN-UNQIUE-12"
     },
     "vnetAddressPrefix": {
       "value": "10.0.0.0/16"
@@ -12,7 +12,7 @@
       "value": "Subnet1"
     },
     "subnet1Prefix": {
-      "value": "10.0.0.0/24"
+      "value": "GEN-UNQIUE"
     },
     "subnet2Name": {
       "value": "Subnet2"
