@@ -1,15 +1,9 @@
-anguage: node_js
-cache:
-  directories:
-    - node_modules
-notifications:
-  email: true
-node_js:
-  - '6'
-before_script:
-  - npm prune
-after_success:
-  - npm run semantic-release
+language: node_js
+sudo: false
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - gh-pages # test gh-pages
+    - /(.*)/   # test all branches
+before_script:
+  - npm install -g jsonlint
+script: jsonlint -q iiif-universe.json
