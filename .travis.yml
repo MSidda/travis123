@@ -1,7 +1,9 @@
-sudo: false
 language: node_js
-node_js:
-  - "4"
-  - "stable"
-  script:
-  ./configure && make
+sudo: false
+branches:
+  only:
+    - gh-pages # test gh-pages
+    - /(.*)/   # test all branches
+before_script:
+  - npm install -g jsonlint
+script: jsonlint -q azuredeploy.json
