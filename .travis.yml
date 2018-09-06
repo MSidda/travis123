@@ -6,4 +6,4 @@ branches:
     - /(.*)/   # test all branches
 before_script:
   - npm install -g jsonlint
-script: jsonlint -q https://github.com/MSidda/travis123/blob/master/azuredeploy.json
+script: jsonlint -q azuredeploy.json
