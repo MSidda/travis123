@@ -7,3 +7,4 @@ branches:
 before_script:
   - npm install -g jsonlint
 script: jsonlint -q azuredeploy.json
+template_link: 'https://raw.githubusercontent.com/azure/azure-quickstart-templates/master/201-web-app-github-deploy/azuredeploy.json'
