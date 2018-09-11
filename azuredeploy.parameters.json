@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "sqlAdministratorLogin": {
-      "value": "GEN-UNIQUE-8"
+      "value": "sidda "
     },
     "sqlAdministratorLoginPassword": {		
-      "value": "GEN-PASSWORD"		
+      "value": "msreddy123@"		
     }		
   }
 }
