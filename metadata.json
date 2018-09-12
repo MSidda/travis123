@@ -1,10 +1,10 @@
 {
   "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
   "type": "QuickStart",
-  "itemDisplayName": "Provision a Web App with a SQL Database",
-  "description": "This template provisions a Web App, a SQL Database, AutoScale settings, Alert rules, and App Insights. It configures a connection string in the web app for the database.",
-  "summary": "Provision a Web App with a SQL Database",
-  "githubUsername": "bmoore-msft",
+  "itemDisplayName": "Create a Batch Account using a template",
+  "description": "This template creates a Batch Account and a storage account.",
+  "summary": "Create a Batch Account using a template and s storage account associated with the batch account.",
+  "githubUsername": "MSidda",
   "dateUpdated": "2018-09-12"
 }
 

@@ -6,6 +6,5 @@ branches:
     - gh-pages # test gh-pages
     - /(.*)/   # test all branches
 before_script:
-- sudo apt-get install apt-transport-https
-- sudo apt-get update && sudo apt-get install azure-cli
-script:az login 
+  - npm install -g jsonlint
+script: jsonlint -q azuredeploy.parameters.json
